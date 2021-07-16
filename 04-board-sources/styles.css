@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("https://images.ctfassets.net/cnu0m8re1exe/7bvBF6E4WXVLLIsH88lXcC/5a3b7483a82fb30248e7d1c7856be6ec/20-things-color.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.square{
+  width: 15px;
+  height: 20px;
+  border-radius: 10px;
+  background: #1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px;
+  transition: 5s ease;
+}
+.square:hover{
+  transition-duration: 0s;
+}
